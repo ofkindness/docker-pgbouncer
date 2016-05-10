@@ -1,6 +1,0 @@
-[template]
-src = "users.txt.tmpl"
-dest = "/etc/pgbouncer/users.txt"
-owner = "postgres"
-mode = "0644"
-keys = []

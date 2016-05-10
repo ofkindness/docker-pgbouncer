@@ -1,0 +1,6 @@
+[template]
+src = "pgbouncer.ini.tmpl"
+dest = "/etc/pgbouncer/pgbouncer.ini"
+owner = "postgres"
+mode = "0644"
+keys = []

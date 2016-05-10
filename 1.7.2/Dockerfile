@@ -15,7 +15,7 @@ RUN cd /usr/src \
   && ./install \
   && bash -c "mkdir -pv /etc/confd/{conf.d,templates}"
 
-ENV PGBOUNCER_VERSION 1.6.1
+ENV PGBOUNCER_VERSION 1.7.2
 
 RUN apt-get update \
   && apt-get install -y automake libevent-dev libssl-dev libtool pkg-config postgresql-client \

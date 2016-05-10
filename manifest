@@ -1,0 +1,8 @@
+# maintainer: Andrei Tretyakov <andrei.tretyakov@gmail.com> (@ofkindness)
+
+1.6.2: git://github.com/ofkindness/docker-pgbouncer/blob/master/1.6.1/Dockerfile 1.6
+1.6: git://github.com/ofkindness/docker-pgbouncer/blob/master/1.6.1/Dockerfile 1.6
+
+1.7.2: git://github.com/ofkindness/docker-pgbouncer/blob/master/1.7.2/Dockerfile 1.7
+1.7: git://github.com/ofkindness/docker-pgbouncer/blob/master/1.7.2/Dockerfile 1.7
+latest: git://github.com/ofkindness/docker-pgbouncer/blob/master/1.7.2/Dockerfile 1.7
