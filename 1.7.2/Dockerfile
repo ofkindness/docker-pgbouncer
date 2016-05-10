@@ -30,6 +30,7 @@ RUN cd /usr/src \
   && ./configure --prefix=/usr/local \
   && make \
   && make install \
+  && groupadd -r postgres && useradd -r -g postgres postgres \
   && bash -c "mkdir -pv /etc/pgbouncer /var/{log,run}/pgbouncer" \
   && bash -c "chown -R postgres:postgres /etc/pgbouncer /var/{log,run}/pgbouncer"
 

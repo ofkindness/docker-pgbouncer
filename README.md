@@ -31,7 +31,7 @@ You can find more information about pgbouncer configuration and usage [here](htt
 How to use this image
 =====================
 
-You can start a pgbouncer instance directly with [official postgres image container](https://hub.docker.com/_/postgres/) link:
+You can start a pgbouncer instance directly with [official postgres image](https://hub.docker.com/_/postgres/) container link:
 
 ```console
 $ docker run --name certain-pgbouncer --link some-postgres:postgres -p 6432:6432 -d kafka/pgbouncer
