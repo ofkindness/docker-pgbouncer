@@ -1,3 +1,0 @@
-{{$user := (or (getenv "POSTGRES_ENV_POSTGRES_USER") "postgres")}}
-{{$password := getenv "POSTGRES_ENV_POSTGRES_PASSWORD"}}
-{{printf "%q %q" $user $password}}
