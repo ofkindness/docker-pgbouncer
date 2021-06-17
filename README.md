@@ -1,8 +1,6 @@
 Supported tags and respective `Dockerfile` links
 ================================================
 
--	`1.6.1`, `1.6`: [Dockerfile](https://github.com/ofkindness/docker-pgbouncer/blob/master/1.6.1/Dockerfile)
--	`1.7.2`, `1.7`, `latest`: [Dockerfile](https://github.com/ofkindness/docker-pgbouncer/tree/master/1.7.2/Dockerfile)
 
 For more information about this image and its history, please see [the relevant manifest `pgbouncer/manifest` file](https://github.com/ofkindness/docker-pgbouncer/tree/master/manifest).
 
